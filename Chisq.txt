@@ -1,0 +1,35 @@
+[1] "ImpactPain"
+
+	Pearson's Chi-squared test
+
+data:  table(data1$group, data1[, 2])
+X-squared = 9.1741, df = 4, p-value = 0.05689
+
+[1] "sex"
+
+	Pearson's Chi-squared test
+
+data:  table(data1$group, data1[, 2])
+X-squared = 2.3938, df = 4, p-value = 0.6637
+
+[1] "AA"
+
+	Pearson's Chi-squared test
+
+data:  table(data1$group, data1[, 2])
+X-squared = 48.794, df = 4, p-value = 6.447e-10
+
+[1] "Asian"
+
+	Pearson's Chi-squared test
+
+data:  table(data1$group, data1[, 2])
+X-squared = 3.721, df = 4, p-value = 0.4451
+
+[1] "Caucasians"
+
+	Pearson's Chi-squared test
+
+data:  table(data1$group, data1[, 2])
+X-squared = 52.476, df = 4, p-value = 1.097e-10
+

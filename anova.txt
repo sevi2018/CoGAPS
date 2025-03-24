@@ -1,0 +1,567 @@
+[1] "gcps_grade"
+             Df Sum Sq Mean Sq F value  Pr(>F)   
+group         3   17.8   5.932   4.514 0.00464 **
+Residuals   147  193.2   1.314                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+22 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                        diff        lwr       upr     p adj
+pattern2-pattern1  0.8159341  0.1176129 1.5142552 0.0148800
+pattern3-pattern1  0.3119658 -0.3947110 1.0186427 0.6609515
+pattern4-pattern1  0.7185315  0.1082945 1.3287684 0.0138730
+pattern3-pattern2 -0.5039683 -1.3075153 0.2995788 0.3651341
+pattern4-pattern2 -0.0974026 -0.8176004 0.6227952 0.9850479
+pattern4-pattern3  0.4065657 -0.3217369 1.1348682 0.4700303
+
+[1] "pcs_rumination"
+             Df Sum Sq Mean Sq F value Pr(>F)
+group         3   77.3   25.78    1.34  0.264
+Residuals   147 2827.6   19.23               
+22 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                        diff        lwr      upr     p adj
+pattern2-pattern1  2.0329670 -0.6385904 4.704525 0.2012109
+pattern3-pattern1  0.4522792 -2.2512447 3.155803 0.9723915
+pattern4-pattern1  0.8024476 -1.5321274 3.137023 0.8083815
+pattern3-pattern2 -1.5806878 -4.6548067 1.493431 0.5414542
+pattern4-pattern2 -1.2305195 -3.9857701 1.524731 0.6525917
+pattern4-pattern3  0.3501684 -2.4360886 3.136425 0.9879251
+
+[1] "pcs_magnification"
+             Df Sum Sq Mean Sq F value Pr(>F)
+group         3   31.1  10.371   1.559  0.202
+Residuals   147  977.6   6.651               
+22 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                          diff        lwr       upr     p adj
+pattern2-pattern1  1.008241758 -0.5626459 2.5791294 0.3443854
+pattern3-pattern1 -0.227207977 -1.8168920 1.3624761 0.9824486
+pattern4-pattern1 -0.225524476 -1.5982649 1.1472160 0.9737862
+pattern3-pattern2 -1.235449735 -3.0430453 0.5721459 0.2889609
+pattern4-pattern2 -1.233766234 -2.8538659 0.3863334 0.2006419
+pattern4-pattern3  0.001683502 -1.6366480 1.6400150 1.0000000
+
+[1] "pcs_helplessness"
+             Df Sum Sq Mean Sq F value Pr(>F)
+group         3     51   16.84   0.727  0.538
+Residuals   147   3407   23.17               
+22 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                         diff       lwr      upr     p adj
+pattern2-pattern1  1.34065934 -1.591677 4.272996 0.6353207
+pattern3-pattern1 -0.36039886 -3.327822 2.607024 0.9890732
+pattern4-pattern1 -0.09440559 -2.656866 2.468054 0.9996843
+pattern3-pattern2 -1.70105820 -5.075251 1.673135 0.5580025
+pattern4-pattern2 -1.43506494 -4.459264 1.589134 0.6068555
+pattern4-pattern3  0.26599327 -2.792239 3.324225 0.9959122
+
+[1] "pcs_total"
+             Df Sum Sq Mean Sq F value Pr(>F)
+group         3    418   139.3    1.18   0.32
+Residuals   147  17363   118.1               
+22 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                        diff        lwr       upr     p adj
+pattern2-pattern1  4.3818681  -2.238216 11.001952 0.3169871
+pattern3-pattern1 -0.1353276  -6.834624  6.563968 0.9999478
+pattern4-pattern1  0.4825175  -5.302528  6.267563 0.9963893
+pattern3-pattern2 -4.5171958 -12.134821  3.100430 0.4158016
+pattern4-pattern2 -3.8993506 -10.726825  2.928124 0.4496453
+pattern4-pattern3  0.6178451  -6.286462  7.522153 0.9955529
+
+[1] "dass_dep"
+             Df Sum Sq Mean Sq F value Pr(>F)
+group         3     24    7.84   0.114  0.952
+Residuals   147  10123   68.87               
+22 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                        diff       lwr      upr     p adj
+pattern2-pattern1  0.8241758 -4.230779 5.879130 0.9743509
+pattern3-pattern1  0.9458689 -4.169571 6.061308 0.9633034
+pattern4-pattern1  0.1748252 -4.242512 4.592162 0.9996089
+pattern3-pattern2  0.1216931 -5.694963 5.938349 0.9999421
+pattern4-pattern2 -0.6493506 -5.862664 4.563963 0.9882368
+pattern4-pattern3 -0.7710438 -6.043026 4.500938 0.9812404
+
+[1] "dass_anx"
+             Df Sum Sq Mean Sq F value Pr(>F)
+group         3    201   67.14   1.376  0.253
+Residuals   147   7174   48.80               
+22 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                       diff        lwr      upr     p adj
+pattern2-pattern1 0.9560440 -3.2992369 5.211325 0.9368154
+pattern3-pattern1 1.7735043 -2.5326930 6.079702 0.7081595
+pattern4-pattern1 2.8391608 -0.8793713 6.557693 0.1986758
+pattern3-pattern2 0.8174603 -4.0790241 5.713945 0.9725534
+pattern4-pattern2 1.8831169 -2.5054712 6.271705 0.6808470
+pattern4-pattern3 1.0656566 -3.3723187 5.503632 0.9242366
+
+[1] "age"
+             Df Sum Sq Mean Sq F value   Pr(>F)    
+group         3   4355  1451.6   7.983 5.78e-05 ***
+Residuals   146  26548   181.8                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+23 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                        diff        lwr       upr     p adj
+pattern2-pattern1  15.277473   7.062882 23.492063 0.0000199
+pattern3-pattern1   6.942308  -1.475142 15.359758 0.1443955
+pattern4-pattern1   4.384615  -2.793810 11.563041 0.3889810
+pattern3-pattern2  -8.335165 -17.879656  1.209327 0.1099809
+pattern4-pattern2 -10.892857 -19.364790 -2.420925 0.0057744
+pattern4-pattern3  -2.557692 -11.226465  6.111080 0.8692765
+
+[1] "B.cells.naive"
+             Df  Sum Sq   Mean Sq F value Pr(>F)
+group         3 0.00060 0.0002014   0.413  0.744
+Residuals   147 0.07173 0.0004880               
+22 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                           diff          lwr         upr     p adj
+pattern2-pattern1 -0.0025906791 -0.016046516 0.010865158 0.9588729
+pattern3-pattern1 -0.0052836856 -0.018900528 0.008333156 0.7447953
+pattern4-pattern1 -0.0002621209 -0.012020677 0.011496436 0.9999299
+pattern3-pattern2 -0.0026930065 -0.018176425 0.012790412 0.9691519
+pattern4-pattern2  0.0023285582 -0.011548816 0.016205932 0.9721537
+pattern4-pattern3  0.0050215647 -0.009011979 0.019055109 0.7888804
+
+[1] "B.cells.memory"
+             Df  Sum Sq   Mean Sq F value Pr(>F)
+group         3 0.00291 0.0009710   1.868  0.138
+Residuals   147 0.07641 0.0005198               
+22 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                          diff          lwr         upr     p adj
+pattern2-pattern1 -0.007582817 -0.021470717 0.006305082 0.4896334
+pattern3-pattern1  0.003666146 -0.010387928 0.017720221 0.9053413
+pattern4-pattern1  0.004771828 -0.007364292 0.016907948 0.7369744
+pattern3-pattern2  0.011248964 -0.004731622 0.027229550 0.2638221
+pattern4-pattern2  0.012354645 -0.001968327 0.026677618 0.1169784
+pattern4-pattern3  0.001105681 -0.013378475 0.015589838 0.9972239
+
+[1] "Plasma.cells"
+             Df   Sum Sq   Mean Sq F value Pr(>F)   
+group         3 0.000829 2.764e-04   4.264 0.0064 **
+Residuals   147 0.009529 6.482e-05                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+22 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                           diff           lwr         upr     p adj
+pattern2-pattern1 -0.0008370273 -0.0057412732 0.004067219 0.9707682
+pattern3-pattern1  0.0031823211 -0.0017806062 0.008145248 0.3452380
+pattern4-pattern1  0.0048694853  0.0005838468 0.009155124 0.0190195
+pattern3-pattern2  0.0040193485 -0.0016238896 0.009662587 0.2539843
+pattern4-pattern2  0.0057065126  0.0006486291 0.010764396 0.0201946
+pattern4-pattern3  0.0016871641 -0.0034276385 0.006801967 0.8267893
+
+[1] "T.cells.CD8"
+             Df  Sum Sq  Mean Sq F value Pr(>F)
+group         3 0.00355 0.001184   0.894  0.446
+Residuals   147 0.19468 0.001324               
+22 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                           diff         lwr        upr     p adj
+pattern2-pattern1 -0.0064640125 -0.02863173 0.01570370 0.8732085
+pattern3-pattern1  0.0060202383 -0.01641272 0.02845320 0.8979421
+pattern4-pattern1 -0.0068854197 -0.02625696 0.01248612 0.7922319
+pattern3-pattern2  0.0124842508 -0.01302379 0.03799229 0.5822794
+pattern4-pattern2 -0.0004214072 -0.02328358 0.02244076 0.9999604
+pattern4-pattern3 -0.0129056580 -0.03602511 0.01021379 0.4700636
+
+[1] "T.cells.CD4.naive"
+             Df Sum Sq  Mean Sq F value   Pr(>F)    
+group         3 0.0643 0.021434   10.48 2.74e-06 ***
+Residuals   147 0.3007 0.002045                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+22 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                           diff         lwr         upr     p adj
+pattern2-pattern1 -0.0452268389 -0.07277532 -0.01767836 0.0002059
+pattern3-pattern1 -0.0458550280 -0.07373314 -0.01797692 0.0001995
+pattern4-pattern1 -0.0065339613 -0.03060756  0.01753964 0.8948513
+pattern3-pattern2 -0.0006281891 -0.03232779  0.03107141 0.9999507
+pattern4-pattern2  0.0386928776  0.01028137  0.06710438 0.0029928
+pattern4-pattern3  0.0393210667  0.01058983  0.06805230 0.0028202
+
+[1] "T.cells.CD4.memory.resting"
+             Df Sum Sq  Mean Sq F value Pr(>F)
+group         3 0.0243 0.008116   1.967  0.121
+Residuals   147 0.6065 0.004126               
+22 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                          diff          lwr        upr     p adj
+pattern2-pattern1 -0.017490019 -0.056616501 0.02163646 0.6519360
+pattern3-pattern1 -0.011277681 -0.050872330 0.02831697 0.8806950
+pattern4-pattern1  0.016767277 -0.017423905 0.05095846 0.5806724
+pattern3-pattern2  0.006212337 -0.038809887 0.05123456 0.9841511
+pattern4-pattern2  0.034257295 -0.006094921 0.07460951 0.1263473
+pattern4-pattern3  0.028044958 -0.012761364 0.06885128 0.2841898
+
+[1] "T.cells.CD4.memory.activated"
+             Df  Sum Sq   Mean Sq F value Pr(>F)
+group         3 0.00010 3.338e-05   0.897  0.444
+Residuals   147 0.00547 3.721e-05               
+22 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                           diff          lwr         upr     p adj
+pattern2-pattern1 -1.937888e-03 -0.005653512 0.001777736 0.5293808
+pattern3-pattern1  2.430492e-04 -0.003517034 0.004003132 0.9983073
+pattern4-pattern1  2.396905e-04 -0.003007255 0.003486636 0.9974871
+pattern3-pattern2  2.180938e-03 -0.002094572 0.006456447 0.5481832
+pattern4-pattern2  2.177579e-03 -0.001654446 0.006009604 0.4541562
+pattern4-pattern3 -3.358712e-06 -0.003878508 0.003871790 1.0000000
+
+[1] "T.cells.regulatory..Tregs."
+             Df    Sum Sq   Mean Sq F value Pr(>F)
+group         3 0.0000357 1.191e-05   1.305  0.275
+Residuals   147 0.0013418 9.128e-06               
+22 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                           diff          lwr          upr     p adj
+pattern2-pattern1 -4.353595e-05 -0.001883848 0.0017967761 0.9999162
+pattern3-pattern1 -1.071347e-04 -0.001969467 0.0017551976 0.9988042
+pattern4-pattern1 -1.105974e-03 -0.002714154 0.0005022066 0.2836299
+pattern3-pattern2 -6.359873e-05 -0.002181217 0.0020540193 0.9998288
+pattern4-pattern2 -1.062438e-03 -0.002960402 0.0008355265 0.4675791
+pattern4-pattern3 -9.988392e-04 -0.002918162 0.0009204841 0.5312470
+
+[1] "NK.cells.resting"
+             Df  Sum Sq  Mean Sq F value   Pr(>F)    
+group         3 0.01249 0.004163   5.786 0.000912 ***
+Residuals   147 0.10578 0.000720                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+22 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                          diff          lwr         upr     p adj
+pattern2-pattern1  0.020898963  0.004558681 0.037239244 0.0061088
+pattern3-pattern1  0.022224364  0.005688564 0.038760164 0.0035014
+pattern4-pattern1  0.009767208 -0.004511957 0.024046374 0.2882771
+pattern3-pattern2  0.001325401 -0.017477102 0.020127904 0.9978093
+pattern4-pattern2 -0.011131754 -0.027983935 0.005720427 0.3187939
+pattern4-pattern3 -0.012457155 -0.029498983 0.004584672 0.2327221
+
+[1] "NK.cells.activated"
+             Df   Sum Sq   Mean Sq F value Pr(>F)
+group         3 2.57e-05 8.577e-06   1.955  0.123
+Residuals   147 6.45e-04 4.387e-06               
+22 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                           diff          lwr          upr     p adj
+pattern2-pattern1 -8.698737e-04 -0.002145791 0.0004060432 0.2911315
+pattern3-pattern1 -8.283427e-04 -0.002119527 0.0004628411 0.3447928
+pattern4-pattern1 -8.904171e-04 -0.002005394 0.0002245593 0.1660526
+pattern3-pattern2  4.153093e-05 -0.001426646 0.0015097083 0.9998569
+pattern4-pattern2 -2.054344e-05 -0.001336432 0.0012953447 0.9999759
+pattern4-pattern3 -6.207437e-05 -0.001392771 0.0012686222 0.9993605
+
+[1] "Monocytes"
+             Df Sum Sq  Mean Sq F value Pr(>F)
+group         3 0.0227 0.007556   1.939  0.126
+Residuals   147 0.5729 0.003898               
+22 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                          diff         lwr         upr     p adj
+pattern2-pattern1  0.009911736 -0.02811698 0.047940453 0.9055555
+pattern3-pattern1  0.027651202 -0.01083255 0.066134950 0.2467279
+pattern4-pattern1 -0.007490919 -0.04072280 0.025740966 0.9362412
+pattern3-pattern2  0.017739466 -0.02601958 0.061498510 0.7182311
+pattern4-pattern2 -0.017402655 -0.05662272 0.021817406 0.6572844
+pattern4-pattern3 -0.035142121 -0.07480355 0.004519305 0.1021118
+
+[1] "Macrophages.M0"
+             Df   Sum Sq   Mean Sq F value Pr(>F)
+group         3 0.000395 0.0001318   2.052  0.109
+Residuals   147 0.009437 0.0000642               
+22 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                          diff          lwr         upr     p adj
+pattern2-pattern1 -0.001644332 -0.006524888 0.003236225 0.8175195
+pattern3-pattern1  0.001594842 -0.003344113 0.006533796 0.8357116
+pattern4-pattern1 -0.002864879 -0.007129816 0.001400058 0.3040385
+pattern3-pattern2  0.003239173 -0.002376806 0.008855152 0.4408035
+pattern4-pattern2 -0.001220548 -0.006254000 0.003812904 0.9221977
+pattern4-pattern3 -0.004459721 -0.009549817 0.000630375 0.1081846
+
+[1] "Macrophages.M2"
+             Df    Sum Sq   Mean Sq F value Pr(>F)
+group         3 0.0000120 4.001e-06   1.041  0.376
+Residuals   147 0.0005651 3.844e-06               
+22 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                           diff           lwr          upr     p adj
+pattern2-pattern1  0.0008055807 -0.0003887139 0.0019998752 0.3004096
+pattern3-pattern1  0.0002264233 -0.0009821615 0.0014350081 0.9619184
+pattern4-pattern1  0.0003321024 -0.0007115473 0.0013757521 0.8416252
+pattern3-pattern2 -0.0005791574 -0.0019534132 0.0007950985 0.6930508
+pattern4-pattern2 -0.0004734783 -0.0017051871 0.0007582305 0.7502276
+pattern4-pattern3  0.0001056791 -0.0011398908 0.0013512489 0.9962019
+
+[1] "Dendritic.cells.activated"
+             Df   Sum Sq   Mean Sq F value Pr(>F)
+group         3 0.000003 9.940e-07   0.118  0.949
+Residuals   147 0.001239 8.432e-06               
+22 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                           diff          lwr         upr     p adj
+pattern2-pattern1 -1.020590e-04 -0.001870869 0.001666751 0.9987935
+pattern3-pattern1  2.845673e-04 -0.001505407 0.002074542 0.9761425
+pattern4-pattern1  1.972949e-04 -0.001348402 0.001742992 0.9873660
+pattern3-pattern2  3.866264e-04 -0.001648715 0.002421968 0.9604029
+pattern4-pattern2  2.993540e-04 -0.001524868 0.002123576 0.9738721
+pattern4-pattern3 -8.727237e-05 -0.001932023 0.001757479 0.9993331
+
+[1] "Mast.cells.resting"
+             Df   Sum Sq   Mean Sq F value Pr(>F)  
+group         3 0.000646 2.155e-04   3.425 0.0189 *
+Residuals   147 0.009248 6.291e-05                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+22 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                           diff          lwr           upr     p adj
+pattern2-pattern1  0.0028535354 -0.001977985  0.0076850556 0.4194423
+pattern3-pattern1 -0.0022366000 -0.007125931  0.0026527315 0.6349171
+pattern4-pattern1 -0.0028515055 -0.007073592  0.0013705807 0.2993062
+pattern3-pattern2 -0.0050901354 -0.010649689  0.0004694184 0.0856014
+pattern4-pattern2 -0.0057050409 -0.010687920 -0.0007221614 0.0178105
+pattern4-pattern3 -0.0006149055 -0.005653860  0.0044240491 0.9889203
+
+[1] "Neutrophils"
+             Df Sum Sq  Mean Sq F value  Pr(>F)   
+group         3 0.0668 0.022255   4.722 0.00355 **
+Residuals   147 0.6928 0.004713                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+22 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                          diff          lwr          upr     p adj
+pattern2-pattern1  0.050740795  0.008923832  0.092557758 0.0104492
+pattern3-pattern1  0.001167545 -0.041149777  0.043484867 0.9998672
+pattern4-pattern1 -0.007881385 -0.044423677  0.028660908 0.9435454
+pattern3-pattern2 -0.049573250 -0.097691368 -0.001455133 0.0407645
+pattern4-pattern2 -0.058622180 -0.101749163 -0.015495197 0.0030618
+pattern4-pattern3 -0.009048930 -0.052661244  0.034563385 0.9492974
+
+[1] "IL10"
+             Df Sum Sq Mean Sq F value Pr(>F)
+group         3   1.51  0.5024   0.897  0.445
+Residuals   107  59.90  0.5599               
+62 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                         diff        lwr       upr     p adj
+pattern2-pattern1  0.06172432 -0.4438452 0.5672939 0.9887464
+pattern3-pattern1  0.29416432 -0.2114052 0.7997339 0.4300715
+pattern4-pattern1  0.01044932 -0.5013673 0.5222659 0.9999453
+pattern3-pattern2  0.23244000 -0.3198929 0.7847729 0.6913308
+pattern4-pattern2 -0.05127500 -0.6093317 0.5067817 0.9951217
+pattern4-pattern3 -0.28371500 -0.8417717 0.2743417 0.5479881
+
+[1] "IL1RA"
+             Df  Sum Sq Mean Sq F value Pr(>F)
+group         3  281563   93854   1.505  0.217
+Residuals   107 6671251   62348               
+62 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                       diff        lwr       upr     p adj
+pattern2-pattern1  94.87215  -73.84341 263.58771 0.4606142
+pattern3-pattern1 124.46727  -44.24829 293.18283 0.2236396
+pattern4-pattern1  34.92331 -135.87697 205.72359 0.9506819
+pattern3-pattern2  29.59512 -154.72602 213.91626 0.9751140
+pattern4-pattern2 -59.94884 -246.18009 126.28241 0.8351945
+pattern4-pattern3 -89.54396 -275.77521  96.68729 0.5935259
+
+[1] "IL6"
+             Df Sum Sq Mean Sq F value Pr(>F)
+group         3     42  14.011   2.115  0.103
+Residuals   107    709   6.626               
+62 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                      diff        lwr       upr     p adj
+pattern2-pattern1  1.37112 -0.3681206 3.1103606 0.1738904
+pattern3-pattern1 -0.08960 -1.8288406 1.6496406 0.9991270
+pattern4-pattern1 -0.22550 -1.9862314 1.5352314 0.9870600
+pattern3-pattern2 -1.46072 -3.3608341 0.4393941 0.1921042
+pattern4-pattern2 -1.59662 -3.5164249 0.3231849 0.1381593
+pattern4-pattern3 -0.13590 -2.0557049 1.7839049 0.9977490
+
+[1] "IL8"
+             Df Sum Sq Mean Sq F value Pr(>F)  
+group         3   69.2  23.068   3.265 0.0242 *
+Residuals   107  755.9   7.064                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+62 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                        diff         lwr      upr     p adj
+pattern2-pattern1  1.7566638 -0.03920407 3.552532 0.0576507
+pattern3-pattern1  1.8078238  0.01195593 3.603692 0.0478465
+pattern4-pattern1  1.3183255 -0.49973296 3.136384 0.2374076
+pattern3-pattern2  0.0511600 -1.91081917 2.013139 0.9998862
+pattern4-pattern2 -0.4383383 -2.42064943 1.543973 0.9387394
+pattern4-pattern3 -0.4894983 -2.47180943 1.492813 0.9172633
+
+[1] "MCP1"
+             Df Sum Sq Mean Sq F value Pr(>F)
+group         3   9402    3134   2.132  0.101
+Residuals   107 157318    1470               
+62 observations deleted due to missingness
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = x, data = num1)
+
+$group
+                        diff        lwr       upr     p adj
+pattern2-pattern1  24.421241  -1.487132 50.329614 0.0722255
+pattern3-pattern1  11.951121 -13.957252 37.859494 0.6257404
+pattern4-pattern1   5.695873 -20.532636 31.924381 0.9417160
+pattern3-pattern2 -12.470120 -40.774924 15.834684 0.6595998
+pattern4-pattern2 -18.725368 -47.323494  9.872758 0.3241644
+pattern4-pattern3  -6.255248 -34.853374 22.342878 0.9405496
+
